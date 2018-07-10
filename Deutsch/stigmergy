@@ -1,0 +1,49 @@
+Stigmergie – mögliches Organisationsprinzip einer Dienstleistungs-Infrastruktur?
+
+Ergon: zu erledigendes Werk
+Stigma: erkennbares Zeichen.
+
+Eine kleine, begrenzte Aufgabe mit Merkmalen für ihre Art=Erledigung wird in einen Zusammenhang eingebracht, in dem Erlediger auf sie aufmerksam werden können. 
+
+Gegensatz: Beauftragung eines Dienstleiters mit einer Gesamtaufgabe, die aus Teilaufgaben besteht, in die dieser sie von sich aus zerlegen muss. Er kann Teilaufgaben an unterschiedliche Mitarbeiter vergeben, welche die Teilaufgaben möglicherweise in noch kleinere Schritte herunterbrechen.
+
+Gesamtaufgaben, deren Erledigung in Teilaufgaben, Sub-Teilaufgaben bis hinunter zu nicht mehr sinnvoll weiter teilbaren Moduli möglich ist, können – zusammen mit der Information, wie sich die Teilergebnisse wieder zum Gesamtergebnis zusammenfügen lassen – von relativ simplen „Erledigern“ und nicht ganz so simplen „Zusammenfügern“ abgearbeitet werden. Die Aufgaben-Zer-Teilung und die Information zur Zusammenführung der Ergebnisse (mit allen erforderlichen Plausibilitäts-Checks) muss für geeignete Aufgabentypen einmal im Voraus bestimmt werden, dann ist ein skalierbarer Ablauf möglich.
+
+Umgebungen, in denen bestimmte Teilaufgaben sicher, schnell und zertifiziert abgearbeitet werden können, seinen „Ameisenhaufen“ genannt. Es kann spezialisierte Ameisenhaufen geben. Die heruntergebrochenen Moduln einer Aufgabe können -wenn sinnvoll-auf mehreren Ameisenhaufen parallel zur Erledigung gebracht werden. 
+
+Dazu braucht es einen Dispatcher, der die Gesamtaufgabe entgegennimmt und ihre Module auf geeignete Ameisenhaufen aufteilt. Dazu nutzt er eine dynamische Datenbank der Betriebsbereitschaft, aktuellen Auslastung, Spezialisierung, des Ratings und der Kosten.
+
+Der Dispatcher, der sich einer Aufgabe annimmt, macht seinen Claim darauf transparent, sodass andere nicht auch darauf zugreifen. Der Claim hat begrenzte Laufzeit bis zur Erledigung. Wird die nicht eingehalten, kommen wieder alle Dispatcher -ausser dem letzten- zur Aktion. Es kann für den Dispatcher Gründe geben, das Laufzeitende zu verschieben. Die Fälle und der Aufschub müssen im Voraus festgelegt sein.
+
+Die Plattform des Dispatchers sollte als Genossenschaft der Plattformen der Ameisenhaufen organisiert sein, die Ameisenhaufen als Genossenschaften der „Ameisen“, d.h. der Anbieter von zertfiziertem Code für Module. Eine Ameise kann ihren Code in mehreren Haufen nach Zulassung arbeiten lassen. Ein Haufen kann bei mehreren Dispatchern gelistet sein.
+
+Jeder Dispatcher hat ein Angebot von Aufgaben-Templates, auf die er sich spezialisiert. 
+
+Öffentliche geprüfte, zertifizierte Templates werden von Verkäufern in ihren Online-Shops eingebunden. Wenn ein Kunde sich für eine Ware/Dienstleistung entschieden hat, läd der Verkäufer die dazugehörigen Parameter in das Template. Der Kunden kann dann noch angebotene Wahlparameter festlegen und seine persönlichen Daten dazu eingeben. Nach kryptografischer Signatur wir die Aufgabe einem Pool übergeben, auf den die Dispatcher zugreifen.
+
+Einer nimmt die Aufgabe auf, damit ist sie tabu für andere, bis sie möglicherweise unerledigt wieder niedergelegt wird. Die Niederlegung kann erzwungen werden, wenn eine festgelegte Zeit überschritte bzw. nicht verlängert ist.
+
+Nach Erledigung zahlt der Dispatcher die beteiligten Ameisenhaufen aus, hält seinen festgelegten Anteil ein. Er legt das Ergebnis wie festgelegt nieder und benachrichtigt den Auftraggeber.
+
+
+Das Konzept steht und fällt mit der Frage, ob es möglich ist, analog einer problemorientierten Programmiersprache, aber im Reverse-Mode, solche Moduln zu identifizieren, aus denen sich Gesamtaufgaben zusammensetzen lassen.
+
+Bei einer Programmiersprache ist die Hardware bekannt, die mit der Maschinensprache in der Abfolge von binären Zuständen programmiert wird.
+Der Assembler ist schon eine Zusammenfassung für immer wiederkehrende Operationen.
+Der Assembler Code wird von einem Lader und Libraries in den Arbeitsspeicher gebracht und gestartet.
+Problemorientierte Programmiersprachen haben Compiler, die aus ihren Instruktionen Assembler Code erzeugen, der wiederum von Ladern …
+
+Hier ist der Assembler einer virtuellen, nicht binären Maschine gesucht, die Verträge ohne händischen Eingriff abarbeiten soll. Wenn es gelingt, die Assembler Anweisungen (was die Ameisen tun) identifiziert zu haben, kann auch der Compiler entworfen werden.
+
+
+Mögliche Stigmata
+•	Prüfe die kryptografische Integrität
+•	Prüfe die Identität der Vertragspartner
+•	Mache eine Meldung an das zuständige Finanzamt
+•	Mache einen Geldtransfer, wenn der Lieferschein eingegangen ist.
+•	Warte eine Zeit X bis zum Eingang eines Lieferscheins.
+•	Mahne den Geldeingang an
+•	Speichere den erledigten Vertrag bei den Vertragspartner
+•	Holde Dir eine Kompetenz zum Zugriff auf den Tree eines Vertragspartners
+•	Lösche dich nach einer Zeit Y
+•	Verlängere Y, bei bestimmten Ereignissen.
